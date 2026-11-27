@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "town_hall_infos",
+  "info": {
+    "singularName": "town-hall-info",
+    "pluralName": "town-hall-infos",
+    "displayName": "Infos mairie"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "town_name": {
+      "type": "string"
+    },
+    "town_address": {
+      "type": "text"
+    },
+    "town_phone_number": {
+      "type": "string"
+    },
+    "town_email": {
+      "type": "email"
+    },
+    "opening_hours": {
+      "type": "blocks"
+    },
+    "waste_collection_info": {
+      "type": "blocks"
+    },
+    "waste_recycling_center_info": {
+      "type": "blocks"
+    }
+  }
+}

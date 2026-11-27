@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "official_documents",
+  "info": {
+    "singularName": "official-document",
+    "pluralName": "official-documents",
+    "displayName": "Documents officiels"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "date_document": {
+      "type": "date"
+    },
+    "pdf_file": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Délibérations et PV",
+        "Arrêtés municipaux",
+        "Finances et budget",
+        "Urbanisme"
+      ]
+    }
+  }
+}

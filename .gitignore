@@ -1,0 +1,21 @@
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Secrets et fichiers locaux
+.env
+.env.*
+!.env.example
+
+# Dépendances et fichiers générés
+node_modules/
+.nuxt/
+.output/
+.nitro/
+.cache/
+dist/
+
+# Logs
+*.log

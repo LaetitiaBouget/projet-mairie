@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "patrimoines",
+  "info": {
+    "singularName": "patrimoine",
+    "pluralName": "patrimoines",
+    "displayName": "Patrimoine"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}
