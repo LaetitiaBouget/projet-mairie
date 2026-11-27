@@ -28,7 +28,7 @@ const quickLinks = [
 
   {
     label: 'Mairie',
-    url: '/municipalite#equipe',
+    url: '/vie-municipale#equipe',
     description: 'Horaires, contact & élus',
     icon: 'lucide:building'
   }
